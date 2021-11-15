@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="home">
+      <section class="header-title">
+        <img
+          src="./images/buildings.svg"
+          alt="Birla icon"
+          class="header-icon"
+        />
+        <h1 class="Birla">Birla</h1>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#contacts">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="ham-burger-menu" onclick="show()">
+        <span></span>
+      </button>
+    </header>
+    <main>
+      <section class="hero-main">
+        <div class="hero-content">
+          <h4 class="hero-title">Safety is top priority</h4>
+
+          <h1 class="hero-subtitle">
+            We Provide Best Services For Fulfilling Your Needs.
+          </h1>
+
+          <button type="button" class="hero-button" id="hero-button">
+            Know more
+          </button>
+        </div>
+      </section>
+      <!-- <div class="wave">
+        <img src="./images/wave.svg" alt="wavy" />
+      </div> -->
+      <section class="our-services" id="services">
+        <section class="container">
+          <h2 class="services-title">Our Services</h2>
+          <section class="row">
+            <section class="card-wrap">
+              <section class="card">
+                <img
+                  src="./images/building-card.svg"
+                  alt="building icon on a card"
+                  class="our-services-icon"
+                />
+                <h1 class="card-title">Construction and Engineering</h1>
+                <p class="card-description">
+                  Magna reprehenderit do elit mollit official official ullamco
+                  duis ex aute quis..
+                </p>
+              </section>
+            </section>
+            <section class="card-wrap">
+              <section class="card">
+                <img
+                  src="./images/hook.svg"
+                  alt="construction hook"
+                  class="our-services-icon"
+                />
+                <h1 class="card-title">Home Building and Renovation</h1>
+                <p class="card-description">
+                  Magna reprehenderit do elit mollit official official ullamco
+                  duis ex aute quis..
+                </p>
+              </section>
+            </section>
+            <section class="card-wrap">
+              <section class="card">
+                <img
+                  src="./images/truck.svg"
+                  alt="truck icon on a card"
+                  class="our-services-icon"
+                />
+                <h1 class="card-title">Oil and Gas Engineering</h1>
+                <p class="card-description">
+                  Magna reprehenderit do elit mollit official official ullamco
+                  duis ex aute quis..
+                </p>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="projects" id="projects">
+        <h1 class="projects-title">Latest Projects</h1>
+        <p class="projects-description">
+          This is our latest projects in which you can see diverse collection of
+          developments, remodelling and new construction
+        </p>
+        <section class="project-images">
+          <section class="project1 project-img">
+            <div class="content">
+              <h1 class="content-heading">Plant & Truck Hire</h1>
+              <p class="content-paragraph">
+                No matter if your project is big or small, Eastern Plant Hire
+                has the plant and trucks available for wet and dry hire to get
+                the job done in Melbourne, Brisbane and Sydney. EPH plant hire
+                services include the equipment hire of excavators, skid seer
+                loaders, dozers and backhoes to name a few.
+              </p>
+            </div>
+          </section>
+          <section class="project2 project-img">
+            <div class="content">
+              <h1 class="content-heading">Material Disposal</h1>
+              <p class="content-paragraph">
+                Knowing where you can take material for disposal can be
+                confusing, which is why EPH offer material disposal as part of
+                our services with our truck hire. Thanks to our locations in
+                Brisbane, Sydney and Melbourne, we’ve amassed a network of over
+                100 trusted material disposal sites across the three states.
+              </p>
+            </div>
+          </section>
+          <section class="project3 project-img">
+            <div class="content">
+              <h1 class="content-heading">Contaminated Soil Disposal</h1>
+
+              <p class="content-paragraph">
+                EPH has a team of EPA licenced operators to undertake
+                contaminated soil disposal. They are equipped with the necessary
+                equipment and qualifications and are capable of getting the
+                contaminated soil disposed of in a timely manner, without
+                compromising safety.
+              </p>
+            </div>
+          </section>
+          <section class="project4 project-img">
+            <div class="content">
+              <h1 class="content-heading">Material Supply & Reuse</h1>
+              <p class="content-paragraph">
+                The most cost-effective way to source material is to recycle
+                soil and material from past projects. At EPH we are actively
+                reusing material from one construction site to supply material
+                to another construction site across the East Coast.
+              </p>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section class="articles" id="articles">
+        <h1 class="article-title">Our Article</h1>
+        <section class="article-header">
+          <h2 class="article-title2">Latest News And Blogs</h2>
+        </section>
+        <section class="row2">
+          <section class="article-card1 article-card">
+            <div class="blog-img">
+              <img
+                src="./images/construction-man.jpg"
+                alt="construction article image"
+                class="article-img"
+              />
+              <button class="view">Know more</button>
+            </div>
+            <div class="time-date">
+              <img
+                src="./images/calendar.svg"
+                alt="image of a calendar"
+                class="calendar-icon"
+              />
+              <p class="date">May 17,2019</p>
+            </div>
+            <p class="article-description">
+              Smart cities are going green because it costs less.
+            </p>
+          </section>
+          <section class="article-card2 article-card">
+            <div class="blog-img">
+              <img
+                src="./images/construction-man.jpg"
+                alt="construction article image"
+                class="article-img"
+              />
+              <button class="view">Know more</button>
+            </div>
+            <div class="time-date">
+              <img
+                src="./images/calendar.svg"
+                alt="image of a calendar"
+                class="calendar-icon"
+              />
+              <p class="date">May 17,2019</p>
+            </div>
+            <p class="article-description">
+              Autodesk spent $1.5 billion on two construction startups
+            </p>
+          </section>
+          <section class="article-card3 article-card">
+            <div class="blog-img">
+              <img
+                src="./images/construction-man.jpg"
+                alt="construction article image"
+                class="article-img"
+              />
+              <button class="view">Know more</button>
+            </div>
+            <div class="time-date">
+              <img
+                src="./images/calendar.svg"
+                alt="image of a calendar"
+                class="calendar-icon"
+              />
+              <p class="date">May 17,2019</p>
+            </div>
+            <p class="article-description">
+              Five important steps for const ruction startups
+            </p>
+          </section>
+        </section>
+        <button class="more-news">More News</button><br /><br />
+      </section>
+    </main>
+    <footer id="contacts">
+      <section class="info">
+        <section class="footer-title">
+          <img
+            src="./images/buildings.svg"
+            alt="Birla icon"
+            class="header-icon"
+          />
+          <h1 class="Birla">Birla</h1>
+        </section>
+        <p class="about-us">
+          With over 10 years of experience in construction, we partner with
+          owners and design professionals to build high-quality projects.
+        </p>
+      </section>
+      <section class="contact">
+        <h1 class="footer-title2">Contacts</h1>
+        <div>
+          <img src="./images/clock.svg" alt="clock" class="contact-images" />
+          <p class="clock-text">Mon - Fri: 8:00 am to 6:00 pm</p>
+        </div>
+        <div>
+          <img
+            src="./images/location.svg"
+            alt="location"
+            class="contact-images"
+          />
+          <p class="location-text">112 W 34th opp mahalaxmi</p>
+        </div>
+        <div>
+          <img src="./images/phone.svg" alt="phone" class="contact-images" />
+          <p class="phone-text">(+91) 982-946-2707</p>
+        </div>
+        <div>
+          <img src="./images/mail.svg" alt="mail" class="contact-images" />
+          <p class="mail-text">info@Birla.com</p>
+        </div>
+      </section>
+      <section class="newsletter">
+        <h1 class="footer-title2 newspaper-title">Newsletter</h1>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <button type="submit" value="SUBSCRIBE" class="subscribe-button">
+          SUBSCRIBE
+        </button>
+      </section>
+      <button class="arrow" onclick="scrollup()">
+        <img src="./images/arrow.svg" alt="up-arrow" />
+      </button>
+    </footer>
+    <script>
+      function scrollup() {
+        console.log("hello");
+        window.scrollTo(0, 0);
+      }
+      let navMenu = document.querySelector("nav");
+      function show() {
+        navMenu.classList.toggle("navActive");
+      }
+    </script>
+  </body>
+</html>
